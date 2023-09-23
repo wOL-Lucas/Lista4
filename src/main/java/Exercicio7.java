@@ -33,6 +33,7 @@ public class Exercicio7 {
     }
 
     public static void displayBreadValuesTable(double breadValue){
+        System.out.printf("Bread Price: R$ %.2f%nYesterday's Bread Bakery - Price table%n",breadValue);
         for(int i = 1; i <= 50; i++){
             System.out.printf("%d - R$ %.2f%n",i,breadValue * i);
         }
