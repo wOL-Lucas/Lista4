@@ -50,15 +50,15 @@ public class Exercicio9 {
         }
         System.out.printf("""
                 **************************************************
-                O total de números presentes nos intervalos é  %d;
+                      Total of numbers in the intervals: %d;
                 **************************************************
-                Números presentes no intervalo entre [%d ,%d]:  %d;
+                Count of numbers in the interval [%d ,%d]:  %d;
                 --------------------------------------------------
-                Números presentes no intervalo entre [%d,%d]:  %d;
+                Count of numbers in the interval [%d,%d]:  %d;
                 --------------------------------------------------
-                Números presentes no intervalo entre [%d,%d]:  %d;
+                Count of numbers in the interval [%d,%d]:  %d;
                 --------------------------------------------------
-                Números presentes no intervalo entre [%d,%d]: %d;
+                Count of numbers in the interval [%d,%d]: %d;
                 **************************************************
                 """,numbersInIntervals,
                 intervals.get(1).getLeft(),intervals.get(1).getRight(), results.get(1),
